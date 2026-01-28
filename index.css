@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Roboto Mono Regular';
+  font-family: 'Roboto-Mono-Regular';
   src: url('docs/RobotoMono-Regular.ttf');
   font-style: normal;
 }
 
 .h1 {
-  font-family: 'Roboto Mono Regular';
+  font-family: 'Roboto-Mono-Regular';
   font-size: 18px; 
 }
 
