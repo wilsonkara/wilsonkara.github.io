@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto Mono Regular';
+  src: url('RobotoMono-Regular.ttf');
+  font-style: normal;
+}
+
 .h1 {
   font-family: Roboto Mono;
   font-size: 18px; 
