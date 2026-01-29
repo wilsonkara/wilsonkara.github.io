@@ -7,12 +7,12 @@
 h1 {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
+  color: red;
 }
 
 body {
   width: 70%;
   margin: 20px;
-  text-color: red;
   overflow: none;
 }
 
