@@ -15,11 +15,11 @@ h1 {
   font-size: 18px; 
   color: red;
   display: block;
+  margin: 20px;
 }
 
 body {
   width: 60vw;
-  margin: 20px;
   overflow: none;
 }
 
