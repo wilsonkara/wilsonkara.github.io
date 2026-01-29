@@ -98,6 +98,11 @@ a {
   padding: 0px 20px 0px 0px; 
 }
 
+.aboutimage {
+  bottom: 20px; 
+  right: 20px; 
+}
+
 /* mobile styles */
 
 @media (min-width: 200px) and (max-width:768px) {
