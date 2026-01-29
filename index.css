@@ -39,7 +39,8 @@ body {
 
 .projecttext  {
   max-width: 490px;
-  display: block;
+  display: flex;
+  flex-direction: column; 
 }
 
 .projectname {
@@ -87,7 +88,7 @@ body {
   margin: 30px 10px;
 }
   .projecttext  {
-  width: 100%;
+    width: 100%;
 }
 
   .projectimg {
