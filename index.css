@@ -99,6 +99,7 @@ a {
 }
 
 .aboutimage {
+  position: relative;
   bottom: 20px; 
   right: 20px; 
 }
@@ -145,7 +146,7 @@ a {
 
   .links {
   display: flex; 
-  flex-direction: column; 
+  flex-direction: row; 
   padding: 20px 0px;
 }
 
