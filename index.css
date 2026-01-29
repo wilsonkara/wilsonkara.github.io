@@ -4,6 +4,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto-Mono-Light';
+  src: url('docs/RobotoMono-Light.ttf');
+  font-style: normal;
+}
+
 h1 {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 28px; 
@@ -16,8 +22,27 @@ body {
   overflow: none;
 }
 
-.home-img-group {
-  height: 30vh;
+.projectcard {
+  width: 100vw;
+  display: block;
+  margin-top: 48px;
+}
+
+.projectcontent {
+  display: inline;
+  margin-top: 30px;
+}
+
+.projectname {
+  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-size: 18px; 
+  color: red;
+
+.projectdescription {
+  font-family: 'Roboto-Mono-Light', 'garamond';
+  font-size: 18px; 
+  color: red;
+  margin-top: 20px;
 }
 
 @media (min-width: 200px) and (max-width:768px) {
