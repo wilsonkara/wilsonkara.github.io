@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 30px; 
-  overflow-x: scroll;
+  overflow-x: none;
 }
 
 .projecttext  {
@@ -58,6 +58,7 @@ body {
 .imgcarousel {
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
 }
 
 .projectimg {
