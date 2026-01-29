@@ -55,6 +55,7 @@ body {
   font-size: 16px; 
   color: red;
   display: block;
+  width: 100%;
 }
 
 .imgcarousel {
