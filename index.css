@@ -133,5 +133,11 @@ a {
   max-width: 100%;
   padding-right: 20px;
 }
+
+  .links {
+  display: flex; 
+  flex-direction: column; 
+  padding: 20px 0px;
+}
   
 }​
