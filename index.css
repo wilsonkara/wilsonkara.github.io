@@ -33,10 +33,15 @@ body {
   margin-top: 30px;
 }
 
+.projecttext  {
+  width: 40vw;
+}
+
 .projectname {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   color: red;
+}
 
 .projectdescription {
   font-family: 'Roboto-Mono-Light', 'garamond';
@@ -45,9 +50,18 @@ body {
   margin-top: 20px;
 }
 
+.projectimg {
+  margin-left: 30px;
+}
+
 @media (min-width: 200px) and (max-width:768px) {
  body {
   width: 100vw;
   margin: 20px;
   }
+
+  .projectcontent {
+  display: block;
+  margin-top: 30px;
+}
 }​
