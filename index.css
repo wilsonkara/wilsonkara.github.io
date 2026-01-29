@@ -33,7 +33,6 @@ body {
 .projectcontent {
   display: flex;
   flex-direction: row;
-  padding: 30px; 
   overflow-x: none;
 }
 
