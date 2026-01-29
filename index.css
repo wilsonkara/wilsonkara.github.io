@@ -27,6 +27,7 @@ body {
   width: 100vw;
   display: block;
   margin-top: 48px;
+  overflow-x: none;
 }
 
 .projectcontent {
