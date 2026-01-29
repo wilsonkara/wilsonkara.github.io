@@ -35,6 +35,9 @@ body {
 }
 
 .links {
+  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-size: 18px; 
+  color: #603333;
   display: flex; 
   flex-direction: row; 
   padding: 0px 20px;
