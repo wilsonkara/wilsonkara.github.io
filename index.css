@@ -29,12 +29,14 @@ body {
 }
 
 .nav {
-  display: inline; 
+  display: flex; 
+  flex-direction: row; 
   justify-content: space-between; 
 }
 
 .links {
-  display: inline; 
+  display: flex; 
+  flex-direction: row; 
   padding: 0px 20px;
 }
 
