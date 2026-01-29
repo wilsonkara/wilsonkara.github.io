@@ -37,6 +37,7 @@ body {
 .projecttext  {
   width: 40%;
   display: block;
+  padding: 20px;
 }
 
 .projectname {
@@ -49,7 +50,6 @@ body {
   font-family: 'Roboto-Mono-Light', 'garamond';
   font-size: 18px; 
   color: red;
-  margin-top: 20px;
 }
 
 .imgcarousel {
