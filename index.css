@@ -32,7 +32,6 @@ body {
 .projectcontent {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
   padding: 30px; 
   overflow-x: scroll;
 }
