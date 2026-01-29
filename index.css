@@ -58,11 +58,11 @@ body {
 .imgcarousel {
   display: flex;
   flex-direction: row;
-  padding: 20px; 
 }
 
 .projectimg {
   max-width: 600px;
+  padding: 0px 20px; 
 }
 
 @media (min-width: 200px) and (max-width:768px) {
