@@ -57,6 +57,8 @@ body {
 
 .imgcarousel {
   padding: 20px; 
+  display: flex;
+  flex-direction: row;
 }
 
 .projectimg {
