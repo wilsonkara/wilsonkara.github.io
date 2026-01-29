@@ -34,13 +34,13 @@ body {
   display: flex;
   flex-direction: row;
   overflow-x: none;
+  margin: 20px;
 }
 
 .projecttext  {
   max-width: 490px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
 }
 
 .projectname {
