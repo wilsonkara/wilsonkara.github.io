@@ -47,14 +47,14 @@ body {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 16px; 
   color: red;
-  display: flex;
+  display: block;
 }
 
 .projectdescription {
   font-family: 'Roboto-Mono-Light', 'garamond';
   font-size: 16px; 
   color: red;
-  display: flex;
+  display: block;
 }
 
 .imgcarousel {
