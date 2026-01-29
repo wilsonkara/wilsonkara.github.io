@@ -149,6 +149,12 @@ a {
   padding: 20px 0px;
 }
 
+.nav {
+  display: flex; 
+  flex-direction: column; 
+  margin-bottom: 20px; 
+}
+  
   .aboutcontainer {
     display: flex;
     flex-direction: column; 
