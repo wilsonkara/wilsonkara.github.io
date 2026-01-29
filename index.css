@@ -14,6 +14,7 @@ h1 {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   color: red;
+  display: block;
 }
 
 body {
@@ -29,12 +30,13 @@ body {
 }
 
 .projectcontent {
-  display: inline;
+  display: inline-block;
   margin-top: 30px;
 }
 
 .projecttext  {
   width: 40%;
+  display: block;
 }
 
 .projectname {
@@ -63,9 +65,10 @@ body {
  body {
   width: 100%;
   margin: 20px;
+  overflow: none;
   }
 
-  .projectcontent {
+.projectcontent {
   display: block;
   margin-top: 30px;
 }
