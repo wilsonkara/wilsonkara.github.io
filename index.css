@@ -66,6 +66,17 @@ body {
   scroll-snap-type: x mandatory;
 }
 
+.imgcarousel::before,
+.imgcarousel::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px; /* Adjust the width of the fade area as needed */
+  pointer-events: none; /* Allows clicks to pass through the gradient to the carousel items */
+  z-index: 1; /* Ensures the gradients are on top of the carousel content */
+}
+
 .projectimg {
   max-width: 600px;
   padding: 0px 20px; 
