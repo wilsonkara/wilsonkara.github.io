@@ -28,6 +28,20 @@ body {
   background-color: #FEFCF7;
 }
 
+.nav {
+  display: inline; 
+  justify-content: space-between; 
+}
+
+.links {
+  display: inline; 
+  padding: 0px 20px;
+}
+
+a {
+   text-decoration: none; 
+}
+
 .projectcard {
   width: 100%;
   display: block;
