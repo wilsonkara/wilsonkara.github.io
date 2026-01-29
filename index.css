@@ -148,5 +148,10 @@ a {
   flex-direction: column; 
   padding: 20px 0px;
 }
+
+  .aboutcontainer {
+    display: flex;
+    flex-direction: column; 
+  }
   
 }​
