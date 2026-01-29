@@ -20,20 +20,19 @@ h1 {
 }
 
 body {
-  overflow-x: none;
 }
 
 .projectcard {
   width: 100%;
   display: block;
   margin-top: 20px;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 .projectcontent {
   display: flex;
   flex-direction: row;
-  overflow-x: none;
+  overflow-x: hidden;
   margin: 20px;
 }
 
@@ -67,17 +66,6 @@ body {
   scroll-snap-type: x mandatory;
 }
 
-.imgcarousel::before,
-.imgcarousel::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 50px; /* Adjust the width of the fade area as needed */
-  pointer-events: none; /* Allows clicks to pass through the gradient to the carousel items */
-  z-index: 1; /* Ensures the gradients are on top of the carousel content */
-}
-
 .projectimg {
   max-width: 600px;
   padding: 0px 20px; 
@@ -85,30 +73,40 @@ body {
 
 @media (min-width: 200px) and (max-width:768px) {
  body {
-  width: 100%;
-  margin: 20px;
-  overflow: none;
-  }
+  margin: 0;
+  padding: 20px;
+}
 
   h1 {
   max-width: 100%;
   line-height: 115%;
 }
 
+  .projectcard {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+  
 .projectcontent {
   display: flex;
   flex-direction: column;
-  margin: 20px 0px;
 }
-  .projecttext  {
+.projecttext, .projecttext::before,
+.projecttext::after  {
     width: 100%;
     margin-bottom: 40px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
+  .imgcarousel {
+  padding: 20px;
+}
+  
   .projectimg {
   max-width: 100%;
-  padding: 0px 20px 0px 0px; 
 }
   
 }​
