@@ -148,7 +148,9 @@ a {
   .links {
   display: flex; 
   flex-direction: row; 
-  position: relative;
+  justify-content: space-between; 
+
+    
   top: 20px;
   left: 20px;
   padding: 20px 0px;
