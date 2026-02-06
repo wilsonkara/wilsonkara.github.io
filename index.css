@@ -10,6 +10,11 @@
   font-style: normal;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 h1 {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
@@ -26,6 +31,9 @@ background-color: #603333;
 
 body {
   background-color: #FEFCF7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .nav {
@@ -52,16 +60,20 @@ a {
 
 .projectcard {
   width: 100%;
-  display: block;
   margin-top: 20px;
   overflow-x: hidden;
+  flex: 1;
+  display: flex;
 }
 
 .projectcontent {
   display: flex;
   flex-direction: row;
+  flex: 1;
   overflow-x: hidden;
   margin: 20px 20px 0px 20px;
+  min-height: 300px;
+  align-items: flex-start;
 }
 
 .projecttext  {
@@ -92,11 +104,19 @@ a {
   flex-direction: row;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
+  height: 100%;
+  align-items: center;
 }
 
 .projectimg {
   max-height: 100%;
   padding: 0px 20px 0px 0px; 
+}
+
+.projectimg img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
 }
 
 .aboutimage {
@@ -105,10 +125,6 @@ a {
   right: 20px; 
 }
 
-.img {
-  height: 100%; /* Makes the image height match the parent's height */
-  width: auto; 
-}
 
 /* mobile styles */
 
