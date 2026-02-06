@@ -15,5 +15,13 @@ function shuffleProjects(projects) {
 
     return projects;
 
-button.addEventListener(click, function shuffleProjects);
+const shuffleButton = document.getElementById('button');
+shuffleButton.addEventListener('click', () => {
+    // Shuffle the array when the button is clicked
+    shuffleArray(projects);
+    displayArrays(); // Update the display
+});
+
+// Initial display of the array when the page loads
+displayArrays();
 
