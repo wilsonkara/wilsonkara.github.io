@@ -42,7 +42,7 @@ body {
   justify-content: space-between; 
 }
 
-.links, #button {
+.links, {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   color: #603333;
@@ -50,6 +50,15 @@ body {
   flex-direction: row; 
   padding: 0px 20px;
   margin-top: 20px; 
+}
+
+#button {
+  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-size: 18px; 
+  color: #603333;
+  padding: 20px;
+  border: 1px solid #603333;
+  margin: 10px;
 }
 
 a {
