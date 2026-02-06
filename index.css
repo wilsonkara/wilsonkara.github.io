@@ -34,7 +34,7 @@ body {
   justify-content: space-between; 
 }
 
-.links #button {
+.links, #button {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   color: #603333;
