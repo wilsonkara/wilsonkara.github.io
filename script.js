@@ -1,4 +1,4 @@
-const projects = ["Onboarding", "Newsletters", "Pause", "Components"]
+const projects = ["Onboarding", "Newsletters", "Pause", "Components"];
 
 function shuffleProjects(projects) {
     let currentIndex = projects.length, randomIndex;
