@@ -22,6 +22,7 @@ h1 {
   display: block;
   margin: 20px 20px 0px 20px;
   max-width: 60%;
+  align-items: center;
 }
 
 ::selection {
@@ -163,6 +164,10 @@ a {
   align-items: center;     /* Vertical */
   height: 100vh;   /* Full viewport height */
   width: 60vw;
+}
+
+.aboutdescription:hover .aboutimage {
+  display: block;
 }
 
 .aboutimage {
