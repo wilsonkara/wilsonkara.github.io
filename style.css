@@ -257,5 +257,13 @@ a {
    text-decoration: none; 
     color: #603333;
 }
+
+  .aboutdescription {
+  display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+  width: 100%;
+  margin: 0 auto; 
+}
   
 }​
