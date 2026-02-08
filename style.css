@@ -102,7 +102,7 @@ a {
   flex: 1;
   overflow-x: hidden;
   margin: 20px 20px 0px 20px;
-  min-height: 300px;
+  height: 80vh;
   align-items: flex-start;
 }
 
