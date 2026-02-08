@@ -168,17 +168,16 @@ a {
 }
 
 .aboutimage {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(120%, -50%);
+  width: 260px;
   opacity: 0;
   pointer-events: none;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   max-width: 600px;   
 }
-
 
 .aboutwrapper {
   position: relative;
