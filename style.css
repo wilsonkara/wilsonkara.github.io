@@ -182,7 +182,10 @@ a {
 
 .aboutwrapper {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
+
 
 .aboutwrapper:hover .aboutimage {
   opacity: 1;
