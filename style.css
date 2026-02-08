@@ -164,6 +164,7 @@ a {
   align-items: center;     /* Vertical */
   height: 100vh;   /* Full viewport height */
   width: 60vw;
+  margin: 0 auto; 
 }
 
 .aboutdescription:hover .aboutimage {
