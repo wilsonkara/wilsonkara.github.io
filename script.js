@@ -1,33 +1,46 @@
-const projectCards = document.querySelectorAll('.projectcard');
+const projectCards = Array.from(document.querySelectorAll('.projectcard'));
 const shuffleButton = document.getElementById('button');
 
+let shuffledCards = [];
 let currentIndex = 0;
 
-// Hide all cards
+// Fisher–Yates shuffle
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 function hideAllProjects() {
-  projectCards.forEach(card => {
-    card.classList.remove('active');
-  });
+  projectCards.forEach(card => card.classList.remove('active'));
 }
 
-// Show one card by index
-function showProject(index) {
+function showCurrentProject() {
   hideAllProjects();
-  projectCards[index].classList.add('active');
+  shuffledCards[currentIndex].classList.add('active');
 }
 
-// Show the first project on load
-showProject(currentIndex);
+// Initialize shuffle
+function initShuffle() {
+  shuffledCards = shuffle([...projectCards]);
+  currentIndex = 0;
+  showCurrentProject();
+}
 
-// Button click → shuffle to a random different project
+// Button click → next project
 shuffleButton.addEventListener('click', () => {
-  let newIndex;
+  currentIndex++;
 
-  do {
-    newIndex = Math.floor(Math.random() * projectCards.length);
-  } while (newIndex === currentIndex);
+  // If we've reached the end, reshuffle
+  if (currentIndex >= shuffledCards.length) {
+    shuffledCards = shuffle([...projectCards]);
+    currentIndex = 0;
+  }
 
-  currentIndex = newIndex;
-  showProject(currentIndex);
+  showCurrentProject();
 });
 
+// Start on page load
+initShuffle();
