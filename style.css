@@ -154,10 +154,24 @@ a {
   object-fit: contain;
 }
 
+.aboutdescription {
+    display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+  height: 100vh;           /* Full viewport height */
+}
+
 .aboutimage {
-  position: fixed;
+  display: none;
   bottom: 20px; 
   right: 20px; 
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+  max-width: 600px;   
+}
+
+.aboutimage:active {
+  display: block;
 }
 
 
