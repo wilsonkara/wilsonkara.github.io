@@ -55,9 +55,9 @@ body {
 #button {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
-  color: #603333;
+  color: #FEFCF7;
+  background-color: #603333
   padding: 16px;
-  border: 1px solid #603333;
   border-radius: 4px; 
   display: inline-block;
   margin: 10px;
@@ -65,6 +65,7 @@ body {
   position: fixed; 
   bottom: 20px; 
   right: 20px; 
+  cursor: pointer;
 }
 
 a {
