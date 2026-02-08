@@ -161,7 +161,8 @@ a {
   display: flex;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
-  height: 100vh;           /* Full viewport height */
+  height: 100vh;   /* Full viewport height */
+  width: 60vw;
 }
 
 .aboutimage {
