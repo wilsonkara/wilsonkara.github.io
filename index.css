@@ -58,6 +58,7 @@ body {
   color: #603333;
   padding: 16px;
   border: 1px solid #603333;
+  border-radius: 4px; 
   display: inline-block;
   margin: 10px;
   width: fit-content;
