@@ -146,6 +146,7 @@ a {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 14px; 
   text-transform: uppercase;
+  padding: 10px 0px;
 }
 
 .projectimg img {
