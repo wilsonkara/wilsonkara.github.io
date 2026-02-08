@@ -205,7 +205,6 @@ a {
   color: #FEFCF7;
   background-color: #603333
   padding: 16px;
-  border-radius: 4px; 
   display: inline-block;
   margin: 10px;
   width: 100vw;
@@ -233,7 +232,6 @@ a {
     box-sizing: border-box;
 }
 
-  
   .projectimg {
   max-width: 100%;
   padding-right: 20px;
@@ -255,10 +253,5 @@ a {
    text-decoration: none; 
     color: #603333;
 }
-  
-  .aboutcontainer {
-    display: flex;
-    flex-direction: column; 
-  }
   
 }​
