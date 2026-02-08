@@ -155,7 +155,10 @@ a {
 }
 
 .aboutdescription {
-    display: flex;
+  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-size: 28px; 
+  color: #603333;
+  display: flex;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   height: 100vh;           /* Full viewport height */
