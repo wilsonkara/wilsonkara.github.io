@@ -60,6 +60,9 @@ body {
   border: 1px solid #603333;
   margin: 10px;
   width: 200px;
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
 }
 
 a {
