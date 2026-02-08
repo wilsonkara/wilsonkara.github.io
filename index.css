@@ -56,10 +56,11 @@ body {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   color: #603333;
-  padding: 20px;
+  padding: 16px;
   border: 1px solid #603333;
+  display: inline-block;
   margin: 10px;
-  width: 200px;
+  width: fit-content;
   position: fixed; 
   bottom: 20px; 
   right: 20px; 
