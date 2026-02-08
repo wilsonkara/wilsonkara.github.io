@@ -73,7 +73,11 @@ a {
   margin-top: 20px;
   overflow-x: hidden;
   flex: 1;
-  display: flex;
+  display: none;
+}
+
+.projectcard.active {
+  display: block;
 }
 
 .projectcontent {
