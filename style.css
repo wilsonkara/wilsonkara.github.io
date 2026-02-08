@@ -52,7 +52,7 @@ body {
   margin-top: 20px; 
 }
 
-.links:hover {
+a:hover {
   color: #FEFCF7;
 background-color: #603333;
 }
