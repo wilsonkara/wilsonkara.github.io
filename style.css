@@ -202,7 +202,7 @@ a {
   h1 {
   max-width: 100%;
   line-height: 115%;
-  margin: 20px 0px;
+  margin: 0px 0px 20px 0px;
 }
 
   #button {
@@ -212,8 +212,7 @@ a {
   background-color: #603333
   padding: 16px;
   display: inline-block;
-  margin: 10px;
-  width: 100%;
+  max-width: 100%;
   position: fixed; 
   bottom: 8px; 
 }
