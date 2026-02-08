@@ -160,6 +160,20 @@ a {
   margin: 20px 0px;
 }
 
+  #button {
+  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-size: 18px; 
+  color: #FEFCF7;
+  background-color: #603333
+  padding: 16px;
+  border-radius: 4px; 
+  display: inline-block;
+  margin: 10px;
+  width: 100vw;
+  position: fixed; 
+  bottom: 8px; 
+}
+
   .projectcard {
   width: 100%;
   display: block;
