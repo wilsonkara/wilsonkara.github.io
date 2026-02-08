@@ -168,6 +168,7 @@ a {
 }
 
 .aboutimage {
+  position: absolute;   /* ← THIS was missing */
   top: 50%;
   left: 50%;
   transform: translate(120%, -50%);
