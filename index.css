@@ -52,6 +52,11 @@ body {
   margin-top: 20px; 
 }
 
+.links:hover {
+  color: #FEFCF7;
+background-color: #603333;
+}
+
 #button {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
