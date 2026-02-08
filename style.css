@@ -64,13 +64,17 @@ background-color: #603333;
   background-color: #603333;
   padding: 16px;
   display: inline-block;
-  border-radius: 4px;
   margin: 10px;
   width: fit-content;
   position: fixed; 
   bottom: 20px; 
   right: 20px; 
   cursor: pointer;
+}
+
+#button:hover {
+  background-color: #FEFCF7;
+  color: #603333;
 }
 
 a {
