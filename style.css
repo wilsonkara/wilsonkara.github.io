@@ -213,7 +213,7 @@ a {
   padding: 16px;
   display: inline-block;
   margin: 10px;
-  width: 100vw;
+  width: 100%;
   position: fixed; 
   bottom: 8px; 
 }
