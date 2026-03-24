@@ -62,7 +62,7 @@ background-color: #603333;
 #button {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
-  color: #2D68C4;
+  background-color: #2D68C4;
   padding: 10px;
   display: inline-block;
   margin: 10px;
