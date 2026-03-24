@@ -210,13 +210,11 @@ a {
   #button {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
-  color: #FEFCF7;
-  background-color: #603333
+  color: white;
+  background-color: #2D68C4;
   padding: 16px;
   display: inline-block;
   max-width: 100%;
-  position: fixed; 
-  bottom: 8px; 
 }
 
   .projectcard {
