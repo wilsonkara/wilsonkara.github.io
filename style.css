@@ -102,7 +102,6 @@ text-decoration: none;
   flex-direction: row;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  height: 100%;
   align-items: center;
 }
 
