@@ -78,24 +78,13 @@ text-decoration: none;
 }
 
 .projectcontent {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  overflow-x: hidden;
   margin: 0px 0px 0px 20px;
   height: 80vh;
-  align-items: flex-start;
-}
-
-.projecttext  {
-  display: flex;
-  flex-direction: row; 
-  margin-right: 40px;
 }
 
 .projectname {
   font-family: 'Roboto-Mono-Regular', 'garamond';
-  font-size: 16px; 
+  font-size: 15px; 
   color: black;
   display: block;
   margin-bottom: 20px;
@@ -103,7 +92,7 @@ text-decoration: none;
 
 .projectdescription {
   font-family: 'Roboto-Mono-Light', 'garamond';
-  font-size: 16px; 
+  font-size: 15px; 
   color: black;
   display: block;
   width: 100%;
