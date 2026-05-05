@@ -58,8 +58,9 @@ padding: 0px 20px;
   align-items: center;     /* Vertical */
 }
 
-a {
+a, a:active {
 text-decoration: none;
+  color: black;
 }
 
 .projectcard {
