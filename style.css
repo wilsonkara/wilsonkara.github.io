@@ -134,6 +134,32 @@ text-decoration: none;
   object-fit: contain;
 }
 
+.expandedpreview {
+  display: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.projectcard.open .expandedpreview {
+  display: block;
+}
+
+.projectcard.open .collapsedpreview .projectname:last-child {
+  transform: rotate(180deg);
+}
+
+.collapsedpreview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.collapsedpreview .projectname:last-child {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
 .aboutdescription {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
