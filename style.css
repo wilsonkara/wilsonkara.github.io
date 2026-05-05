@@ -241,6 +241,12 @@ text-decoration: none;
   flex-direction: column; 
 }
 
+  .expandedpreview {
+  display: flex;  
+  flex-direction: column; 
+  transition: all 0.3s ease;
+}
+
   .aboutdescription {
   display: flex;
   justify-content: center; /* Horizontal */
