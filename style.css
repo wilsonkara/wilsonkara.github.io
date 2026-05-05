@@ -38,13 +38,13 @@ body {
   min-height: 100vh;
 }
 
-.nav {
+.header {
   display: flex; 
   flex-direction: row; 
   justify-content: space-between; 
 }
 
-.links {
+.navbutton {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   display: flex; 
