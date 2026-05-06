@@ -214,10 +214,14 @@ text-decoration: none;
     -webkit-overflow-scrolling: touch;
     width: 100%;
     height: auto; /* let content define height */
+    gap: 16px;
+    padding: 0 16px; /* optional: inset so first/last image isn't flush to edge */
+    scroll-padding: 16px; /* keeps snap aligned with the padding */
+    box-sizing: border-box;
   }
 
 .projectimg {
-    flex: 0 0 100%; /* each image takes full width of carousel */
+    flex: 0 0 calc(100% - 32px); /* subtract gap+padding so it still snaps one at a time */
     scroll-snap-align: start;
     padding: 20px 0px; /* remove right padding so it fills edge to edge */
     box-sizing: border-box;
