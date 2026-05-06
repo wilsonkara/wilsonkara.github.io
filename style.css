@@ -202,10 +202,25 @@ text-decoration: none;
   margin: 0px 0px 20px 0px;
 }
 
-  .projectcard {
+.imgcarousel {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch; /* smooth momentum scrolling on iOS */
   width: 100%;
-  margin-top: 20px;
-  overflow-x: hidden;
+  height: 60vw; /* give it an explicit height so images have something to scale against */
+}
+
+.projectimg {
+  flex-shrink: 0; /* prevents images from squishing to fit */
+  height: 100%;
+}
+
+.projectimg img {
+  height: 100%;
+  width: auto;
+}
+
+.projectcard {
+  overflow-x: visible; /* or remove overflow-x: hidden — it clips the carousel */
 }
   
 .projectcontent {
@@ -213,6 +228,7 @@ text-decoration: none;
   flex-direction: column;
   margin: 20px 0px;
 }
+  
 .projecttext, .projecttext::before,
 .projecttext::after  {
     width: 100%;
@@ -224,12 +240,6 @@ text-decoration: none;
   .projectdescription {
   width: 100%;
   }
-
-  .projectimg {
-  max-width: 100%;
-  padding: 20px 20px 20px 0px;
-  border-radius: 10px;
-}
 
   .links {
   display: flex; 
