@@ -73,12 +73,13 @@ text-decoration: none;
 
 .projectcard {
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
   flex: 1;
 }
 
 .projectcontent {
   margin: 0px;
+  overflow: hidden;
 }
 
 .projectname {
