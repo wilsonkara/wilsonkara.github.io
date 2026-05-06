@@ -299,6 +299,7 @@ text-decoration: none;
   }
 
   .aboutdescription {
+  font-size: 15px;
   display: flex;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
