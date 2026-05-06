@@ -116,6 +116,9 @@ text-decoration: none;
 
 .projectimg img {
   border-radius: 10px;
+  max-height: 363px; /* adjust to whatever feels right */
+  width: auto;
+  object-fit: contain;
 }
 
 .imgcaption {
