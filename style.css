@@ -216,12 +216,13 @@ text-decoration: none;
 .projectimg {
   flex-shrink: 0; /* prevents images from squishing to fit */
   height: 100%;
-  padding: 20px 20px 20px 0px; 
 }
 
 .projectimg img {
   height: 100%;
   width: auto;
+  padding: 20px 0px; 
+
 }
 
 .projectcard {
@@ -254,11 +255,15 @@ text-decoration: none;
 }
 
   .navigation {
-padding: 0px 20px; 
   display: flex;
   flex-direction: column; 
 }
 
+.navbutton {
+  padding: 0px;
+  align-items: end;
+  }
+  
  .projectcard.open .expandedpreview {
     display: flex;
     flex-direction: column;
