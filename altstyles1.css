@@ -201,6 +201,16 @@ text-decoration: none;
   opacity: 1;
 }
 
+#theme-toggle {
+  font-family: 'FavoritBook', 'helvetica';
+  font-size: 16px; 
+  padding: 10px; 
+  border: none; 
+  position: absolute; 
+  bottom: 20px; 
+  cursor: pointer; 
+}
+
 
 /* mobile styles */
 
