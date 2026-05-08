@@ -68,15 +68,14 @@ text-decoration: none;
 }
 
 .river {
-  box-sizing: border-box;
-  max-width: 100%;
-  padding: 0px 20px;
+  display: flex;
+  flex-direction: row; /* cards side by side */
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .projectcard {
-  width: 100%;
-  overflow: hidden;
-  flex: 1;
+  flex: 1; /* each card takes equal width */
 }
 
 .projectcontent {
@@ -135,9 +134,9 @@ text-decoration: none;
   object-fit: contain;
 }
 
+/* force expanded state */
 .expandedpreview {
-  display: none;  
-  transition: all 0.3s ease;
+  display: block;
 }
 
 .projectcard.open .expandedpreview {
@@ -148,18 +147,8 @@ text-decoration: none;
   transform: rotate(180deg);
 }
 
-.collapsedpreview {
-  position: relative; 
-  top: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  cursor: pointer;
-}
-
 .collapsedpreview .projectname:last-child {
-  display: inline-block;
-  transition: transform 0.3s ease;
+  display: none;
 }
 
 .aboutdescription {
