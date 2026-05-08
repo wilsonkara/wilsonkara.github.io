@@ -1,12 +1,18 @@
 @font-face {
-  font-family: 'Roboto-Mono-Regular';
-  src: url('docs/RobotoMono-Regular.ttf');
+  font-family: 'AugerMonoRegular';
+  src: url('docs/AugerMonoTEST-Regular.otf');
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto-Mono-Light';
-  src: url('docs/RobotoMono-Light.ttf');
+  font-family: 'AugerMonoLight';
+  src: url('docs/AugerMonoTEST-Light.otf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AugerMonoBold';
+  src: url('docs/AugerMonoTEST-Bold.otf');
   font-style: normal;
 }
 
@@ -17,7 +23,7 @@ html, body {
 }
 
 h1 {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AugerMonoRegular', 'Courier New';
   font-size: 15px; 
   color: black;
   display: block;
@@ -51,7 +57,7 @@ padding: 0px 20px;
 }
 
 .navbutton {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AugerMonoRegular', 'Courier New';
   font-size: 16px; 
   color: black; 
   display: flex; 
@@ -83,16 +89,17 @@ text-decoration: none;
 }
 
 .projectname {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AugerMonoBold', 'Courier New';
   font-size: 24px; 
   color: black;
   display: block;
   margin-bottom: 20px; 
   line-height: 110%;
+  text-transform: uppercase; 
   }
 
 .projectdescription {
-  font-family: 'Roboto-Mono-Light', 'garamond';
+  font-family: 'AugerMonoLight', 'Courier New';
   font-size: 15px; 
   color: black;
   display: block;
@@ -124,14 +131,6 @@ text-decoration: none;
   width: auto;
   max-height: 100%;
   object-fit: contain;
-}
-
-.imgcaption {
-  font-family: 'Roboto-Mono-Light', 'garamond';
-  font-size: 14px; 
-  text-transform: uppercase;
-  padding: 10px 0px;
-  color: black;
 }
 
 .projectimg img {
@@ -168,7 +167,7 @@ text-decoration: none;
 }
 
 .aboutdescription {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AugerMonoRegular', 'Courier New';
   font-size: 18px; 
   color: black;
   display: flex;
@@ -203,7 +202,7 @@ text-decoration: none;
 }
 
 #theme-toggle {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AugerMonoBold', 'Courier New';
   font-size: 16px; 
   padding: 10px; 
   border: none; 
@@ -211,6 +210,7 @@ text-decoration: none;
   bottom: 20px; 
   right: 20px; 
   cursor: pointer; 
+  text-transform: uppercase; 
 }
 
 #theme-toggle:hover {
