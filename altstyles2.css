@@ -16,7 +16,7 @@ html {
 
 h1 {
   font-family: 'RadioBlack', 'helvetica';
-  font-size: 28px; 
+  font-size: 15px; 
   color: #E5460C;
   display: block;
   margin: 20px;
@@ -54,7 +54,7 @@ padding: 0px 20px;
 
 .navbutton {
   font-family: 'RadioRegular' 'helvetica';
-  font-size: 16px; 
+  font-size: 15px; 
   color: #E5460C;
   display: flex; 
   flex-direction: row; 
@@ -85,8 +85,8 @@ text-decoration: none;
 }
 
 .projectname {
-  font-family: 'Stefan';
-  font-size: 24px; 
+  font-family: 'RadioRegular', 'helvetica';
+  font-size: 36px; 
   color: #E5460C;
   display: block;
   margin-bottom: 20px;
