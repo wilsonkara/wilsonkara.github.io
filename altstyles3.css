@@ -107,6 +107,12 @@ background-color: black;
   background-color: #603333;
 }
 
+#theme-toggle {
+  color: #FFEA64;
+  background-color: #603333;
+  font-style: italic; 
+}
+
 /* formatting styles */ 
 
 .header {
