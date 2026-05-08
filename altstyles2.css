@@ -91,6 +91,7 @@ text-decoration: none;
   display: block;
   margin-bottom: 20px;
   letter-spacing: -2%;
+  line-height: 100%;
 }
 
 .projectdescription {
