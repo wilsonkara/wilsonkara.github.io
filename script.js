@@ -14,7 +14,7 @@ document.querySelectorAll('.collapsedpreview').forEach(header => {
   });
 });
 
-const sheets = ['style.css', 'altstyles1.css', 'altstyles2.css'];
+const sheets = ['style.css', 'altstyles1.css', 'altstyles2.css', 'altstyles3.css'];
 let currentIndex = 0;
 
 function toggleTheme() {
