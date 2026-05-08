@@ -10,11 +10,8 @@
   font-style: normal;
 }
 
-html, body {
+html {
   height: 100%;
-  margin: 0;
-  letter-spacing: -0.25px;
-  background-color: #852F2F;
 }
 
 h1 {
@@ -33,6 +30,8 @@ background-color: black;
 }
 
 body {
+  margin: 0;
+  letter-spacing: -0.25px;
   background-color: #852F2F;
   display: flex;
   flex-direction: column;
