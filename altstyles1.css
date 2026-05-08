@@ -207,6 +207,8 @@ text-decoration: none;
   font-family: 'FavoritBook', 'helvetica';
   font-size: 16px; 
   padding: 10px; 
+  color: 701111;
+  background-color: #CFE7ED;
   border: none; 
   position: absolute; 
   bottom: 20px; 
