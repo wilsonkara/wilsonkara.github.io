@@ -201,7 +201,7 @@ text-decoration: none;
 #theme-toggle {
   font-family: 'EditorialOld', 'garamond';
   font-size: 16px; 
-  padding: 10px; 
+  padding: 10px 20px; 
   color: #0635F0;
   position: fixed; 
   bottom: 20px; 
