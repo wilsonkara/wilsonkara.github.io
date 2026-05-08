@@ -192,6 +192,7 @@ padding: 0px 20px;
   flex-direction: row;
   justify-content: space-between;
   cursor: pointer;
+  align-items: center
 }
 
 .collapsedpreview .projectname:last-child {
