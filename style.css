@@ -211,14 +211,15 @@ text-decoration: none;
   font-family: 'AugerMonoRegular', 'Courier New';
   font-size: 16px; 
   padding: 10px 20px; 
-  border: none; 
+  border: black 1px solid; 
+  border-radius: 100px;
   position: fixed; 
   bottom: 20px; 
   right: 20px; 
   cursor: pointer; 
   text-transform: none; 
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 #theme-toggle:hover {
