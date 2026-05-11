@@ -100,6 +100,13 @@ text-decoration: none;
   width: auto;
 }
 
+.previewleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
 .collapsedpreview:hover .thumbnail {
   opacity: 1;
 }
