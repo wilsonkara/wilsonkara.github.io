@@ -50,6 +50,7 @@ h1 {
   display: flex; 
   flex-direction: row; 
   align-items: center;     /* Vertical */
+  padding-right: 20px; 
 }
 
 a, a:active {
