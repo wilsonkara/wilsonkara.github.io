@@ -98,7 +98,6 @@ text-decoration: none;
 .thumbnail img {
   max-height: 40px;
   width: auto;
-  transform: rotate(-2deg);
 }
 
 .collapsedpreview:hover .thumbnail {
