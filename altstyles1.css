@@ -167,6 +167,7 @@ text-decoration: none;
 .aboutdescription {
   font-family: 'EditorialOld', 'garamond';  
   font-size: 20px; 
+  line-height: 130%;
   text-transform: none; 
   color: #009751;
   display: flex;
