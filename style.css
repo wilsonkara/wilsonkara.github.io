@@ -89,6 +89,7 @@ text-decoration: none;
   flex: 1;
 }
 
+/*thumbnail on collapsed view formatting*/
 .thumbnail {
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -98,7 +99,6 @@ text-decoration: none;
 .thumbnail img {
   max-height: 40px;
   width: auto;
-  border: black 1px solid;
 }
 
 .previewleft {
