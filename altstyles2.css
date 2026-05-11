@@ -85,6 +85,7 @@ background-color: black;
   font-family: 'RadioRegular', 'helvetica';  
   font-size: 48px; 
   line-height: 100%;
+  letter-spacing: -.25px;
   color: #E5460C;
   display: flex;
   justify-content: center; /* Horizontal */
