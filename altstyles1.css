@@ -317,7 +317,7 @@ text-decoration: none;
   }
 
   .aboutdescription {
-  font-size: 15px;
+  font-size: 18px;
   display: flex;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
