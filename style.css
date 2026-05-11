@@ -110,10 +110,6 @@ text-decoration: none;
   opacity: 1;
 }
 
-.collapsedpreview .projectname:first-child {
-  flex: 1;
-}
-
 .expandedpreview:hover .thumbnail {
   opacity: 0;
 }
