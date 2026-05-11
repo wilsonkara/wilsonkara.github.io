@@ -98,6 +98,10 @@ text-decoration: none;
   opacity: 1;
 }
 
+.collapsedpreview .projectname:first-child {
+  flex: 1;
+}
+
 .projectcontent {
   margin: 0px;
   overflow: hidden;
