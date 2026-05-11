@@ -355,5 +355,9 @@ text-decoration: none;
   .projectname {
   font-size: 20px; 
   }
+
+  .thumbnail {
+  display: none;
+}
   
 }​
