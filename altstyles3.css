@@ -79,8 +79,8 @@ text-decoration: none;
 }
 
 ::selection {
-background-color: black;
-  color: white;
+background-color: #603333;
+  color: #FFEA64;
 }
 
 .aboutdescription {
