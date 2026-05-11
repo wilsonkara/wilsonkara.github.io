@@ -208,6 +208,7 @@ text-decoration: none;
   bottom: 20px; 
   right: 20px; 
   cursor: pointer; 
+  border: #0635F0 1px solid; 
   text-decoration: none; 
   background-color: none; 
 }
