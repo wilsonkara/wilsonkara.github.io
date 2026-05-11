@@ -92,8 +92,11 @@ text-decoration: none;
 .thumbnail {
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+
+.thumbnail img {
   max-height: 40px;
-  width: auto; 
+  width: auto;
   transform: rotate(-2deg);
 }
 
