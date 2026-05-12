@@ -125,7 +125,6 @@ background-color: #603333;
 }
 
 /* formatting styles */ 
-
 .header {
   display: flex; 
   flex-direction: row; 
@@ -150,6 +149,7 @@ padding: 0px 20px;
   flex-direction: column;
 }
 
+/*card behavior*/
 .projectcard {
   width: 100%;
   overflow: hidden;
@@ -235,7 +235,6 @@ padding: 0px 20px;
 }
 
 /* mobile styles */
-
 @media (min-width: 200px) and (max-width:768px) {
  body {
   margin: 0;
