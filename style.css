@@ -214,11 +214,8 @@ text-decoration: none;
   text-transform: uppercase; 
   letter-spacing: -1.5px;
   color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 90vw;
   min-height: 100vh;
+  margin: 60px 20px;
 }
 
 
