@@ -30,7 +30,8 @@ h1 {
   color: #009751;
   position: fixed;
   top: 20px; 
-  left: 20px
+  left: 20px;
+}
 
 ::selection {
 background-color: #009751;
