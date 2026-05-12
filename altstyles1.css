@@ -180,12 +180,8 @@ text-decoration: none;
   line-height: 130%;
   text-transform: none; 
   color: #009751;
-  display: flex;
-  justify-content: center; /* Horizontal */
-  align-items: center;     /* Vertical */
-  height: 100vh;   /* Full viewport height */
-  width: 60vw;
-  margin: 0 auto; 
+  min-height: 100vh;
+  margin: 60px 20px;
 }
 
 .aboutimage {
