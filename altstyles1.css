@@ -320,7 +320,7 @@ text-decoration: none;
 
   .aboutdescription {
   font-size: 18px;
-  display: flex;
+  display: grid;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   width: 100%;
