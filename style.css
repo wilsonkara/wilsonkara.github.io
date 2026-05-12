@@ -182,7 +182,7 @@ text-decoration: none;
   transition: transform 0.3s ease;
 }
 
-.collapsedpreview .projectname:first-child {
+.collapsedpreview .projectname {
   flex: 1;
 }
 
