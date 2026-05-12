@@ -209,15 +209,14 @@ text-decoration: none;
 
 .aboutdescription {
   font-family: 'AugerMonoRegular', 'Courier New';
-  font-size: 20px; 
+  font-size: 36px; 
   text-transform: uppercase; 
+  letter-spacing: -1.5px;
   color: black;
   display: flex;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
-  height: auto;
-  min-height: 100vh;   /* Full viewport height */
-  width: 50vw;
+  max-width: 90vw;
   margin: 0 auto; 
 }
 
