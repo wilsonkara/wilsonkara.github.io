@@ -24,6 +24,14 @@ h1 {
   align-items: center;
 }
 
+.homebutton {
+  font-family: 'EditorialOld', 'garamond';
+  font-size: 16px; 
+  color: #009751;
+  position: fixed;
+  top: 20px; 
+  left: 20px
+
 ::selection {
 background-color: #009751;
   color: #FFF6E8;
